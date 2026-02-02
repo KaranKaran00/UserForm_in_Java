@@ -21,6 +21,10 @@ public class swingDemo {
 		JTextField t2 =new JTextField(20);
 		f.add(t2);
 		
+		JPasswordField t3 =new JPasswordField(20);
+		f.add(t3);
+		
+
 		JButton b= new JButton("Submit");
 		f.add(b);
 	}
