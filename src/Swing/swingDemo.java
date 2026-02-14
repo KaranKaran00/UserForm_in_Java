@@ -20,8 +20,9 @@ public class swingDemo {
 		f.add(l2);
 		JTextField t2 =new JTextField(20);
 		f.add(t2);
-		
+		f.setResizable(false);
 		JButton b= new JButton("Submit");
 		f.add(b);
+		f.setVisible(true);
 	}
 }
